@@ -1,10 +1,7 @@
-color= 4338CA
-#4F46E5
-.hero {
-    align : centre;
-    
-}
-.Hero {
+/* color= 4338CA
+#4F46E5 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
     font-family: 'Poppins', sans-serif;
-    
 }
