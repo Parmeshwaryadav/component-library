@@ -43,3 +43,14 @@ hr {
 /**look into BEM Naming convention on css**/
 
 /**@list**/
+
+.list-no-bullets {
+    list-style: none;    
+}
+.inline-list {
+    display: inline;
+    padding: 0rem 0.5rem;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
