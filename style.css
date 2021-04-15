@@ -45,12 +45,37 @@ hr {
 /**@list**/
 
 .list-no-bullets {
-    list-style: none;    
+    list-style: none;   
 }
 .inline-list {
     display: inline;
     padding: 0rem 0.5rem;
+    list-style: none;
+}
+
+/**Navigation**/
+.navigation {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
     color: white;
+    padding: 0.5rem;
+    padding-top: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.nav-new {
+    color: white;
+}
+.navigation .link {
+    color: white;
+    font-size: 1.1rem;
+}
+.navigation .nav-new {
+    text-align: right;
+    padding-top: 1rem;
+}
+.navigation .nav-main {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.navigation .active-link {
+    font-weight: bold;
 }
