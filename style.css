@@ -4,6 +4,7 @@
 
 :root {
     --primary-color:#4F46E5;
+    --secondary-color: #6B7280;
 }
 body {
     font-family: 'Poppins', sans-serif;
@@ -88,6 +89,10 @@ hr {
     margin: auto;
 }
 .hero-heading {
-    color: #4B5563;
+    color: white;
     text-align: center;
+    background-color: #6B7280;
+    padding: 1.1rem;
+    border-radius: 3rem;
+    font-size: 2rem;
 }
