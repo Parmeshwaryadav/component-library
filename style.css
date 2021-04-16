@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -123,4 +124,17 @@ hr {
     background-color: #1F2937;
     color: white;
 }
-
+/**footer**/
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 2rem 0rem;
+    border-top-right-radius: 1rem;
+}
+.footer .link {
+    color:white;
+}
+.footer .ul {
+    padding-inline-start: 0px;
+}
