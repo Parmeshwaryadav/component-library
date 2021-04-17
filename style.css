@@ -12,6 +12,13 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
+.hero-right {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: auto;
+}
 
 hr {
     margin: 2rem;
